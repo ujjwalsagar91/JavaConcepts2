@@ -8,12 +8,17 @@ public class DerivedClass extends BaseClass {
 	}
 	
 	public void display() {
-		System.out.println("From Child class");
+		System.out.println("Display From Child class");
+	}
+	
+	public static void print() {
+		System.out.println("Print From Child class");
 	}
 
 	public static void main(String[] args) {
 		BaseClass bsc = new DerivedClass("123", "abc");
 		bsc.display();
+		bsc.print();
 	}
 
 }

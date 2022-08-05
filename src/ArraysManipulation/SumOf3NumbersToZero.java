@@ -28,7 +28,7 @@ public class SumOf3NumbersToZero {
 		int[] arr1 = {-1,0,1,2,-1,-4};
 
 		sum(arr1);
-
+		
 	}
 
 }

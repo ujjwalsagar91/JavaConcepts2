@@ -25,10 +25,19 @@ public class PrimeNumber {
 			}
 		}
 	}
+	
+	public static void checkPrimeNumberBetweenNumbers(int a, int b) {
+		
+		for(int i=a; i<=b; i++) {
+			checkPrimeNumber(i);
+		}
+		
+	}
 
 	public static void main(String[] args) {
 
 		checkPrimeNumber(2);
+		checkPrimeNumberBetweenNumbers(1,100);
 
 	}
 

@@ -15,7 +15,12 @@ public class BaseClass {
 	}
 	
 	public void display() {
-		System.out.println("From Base class");
+		System.out.println("Display From Base class");
 	}
+	
+	public static void print() {
+		System.out.println("Print From Base class");
+	}
+
 
 }

@@ -13,7 +13,7 @@ public class CountVowelsUsingStream {
 		List<String> list = Arrays.asList(str.split(""));
 		
 		long count = list.stream().map(e->e.toLowerCase()).filter(e->e.equals("a") || e.equals("e")).count();
-		
+			
 		System.out.println(count);
 		
 		
